@@ -1,0 +1,127 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+a{
+    text-decoration: none;
+    cursor:pointer;
+}
+body{
+    margin:0;
+    padding: 0;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #740001;
+}
+header{
+    width: 100%;
+    height: 60px;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display:flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav-right-section a{
+    margin-right: 10px;
+    color:#eeba30;
+}
+nav .nav-right-section img{
+    border-radius: 50%;
+}
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-logo img{
+    height: 92px;
+    width: 272px;
+}
+main .main-input{
+    width: 530px;
+    margin:0 auto;
+    margin-bottom: 35px;
+}
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border:1px solid  #eeba30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #740001;
+}
+.search-icon,.mic{
+    color:white;
+}
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0  #d3a625;
+}
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+main .main-buttons div{
+    display: inline-block;
+}
+main .main-buttons button{
+    height: 36px;
+    background-color: #d3a625;
+    border: 0;
+    font-size: 14px;
+    color:white;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+main .main-buttons button:hover{
+    box-shadow: 0 1px 6px 0  #000000;
+    color: #f2f2f2
+}
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom:0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #4e0102;
+    border-top:1px solid black;
+}
+footer ul{
+    margin:10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+footer .footer-left{
+    justify-self: left;
+}
+footer .footer-right{
+    justify-self: right;
+}
+footer ul li a{
+    margin:10px;
+    color: white;
+}
